@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# React Dynamic Task List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern **task management application built with React** that allows users to add, complete, and delete tasks while tracking productivity through task statistics and a visual progress bar.
 
-## Available Scripts
+This project demonstrates **React Hooks, dynamic state management, conditional rendering, and LocalStorage persistence** to maintain tasks even after refreshing the page.
 
-In the project directory, you can run:
+🌐 **Live Website**
+https://deepthip711.github.io/react-dynamic-task-list
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Add new tasks to the list
+* Mark tasks as **completed**
+* Delete tasks from the list
+* **Dynamic task statistics**
 
-### `npm test`
+  * Total tasks
+  * Completed tasks
+  * Pending tasks
+* **Progress bar** showing completion percentage
+* Tasks persist using **LocalStorage**
+* Clean and responsive user interface
+* Interactive buttons with hover animations
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **React**
+* **JavaScript (ES6)**
+* **HTML5**
+* **CSS3**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+```
+react-dynamic-task-list
+│
+├── public
+│
+├── src
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+│
+├── package.json
+└── README.md
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to Run the Project Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+git clone https://github.com/deepthip711/react-dynamic-task-list.git
+```
 
-## Learn More
+2. Navigate into the project folder
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+cd react-dynamic-task-list
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install dependencies
 
-### Code Splitting
+```
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Start the development server
 
-### Analyzing the Bundle Size
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The application will run at:
 
-### Making a Progressive Web App
+```
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Purpose of the Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project was developed as part of the **SuprMentr VTU Internship Program (Full Stack Web Development)** to demonstrate the use of React Hooks and dynamic UI updates in building interactive web applications.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author
 
-### `npm run build` fails to minify
+**Deepthi Pradeep**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub:
+https://github.com/deepthip711
